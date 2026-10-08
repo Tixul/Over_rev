@@ -1,0 +1,35 @@
+# Local editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Python build caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local builds, extracted template and toolchain
+/build/
+/dist/
+/Over_rev_engine_template/
+/t900/
+*.abs
+*.rel
+*.s24
+*.map
+*.log
+*.tmp
+*.bak
+
+# Emulator runtime files
+*.sav
+*.srm
+*.state
+
+# Keep the distributed game and engine archive available in Git
+!/overrev.exe
+!/overrev.ngc
+!/overrev-engine-template.zip
